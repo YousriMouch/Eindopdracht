@@ -1,0 +1,319 @@
+* {
+    box-sizing:
+     border-box;
+}
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+  
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    border-bottom: #000000 2px solid;
+}
+nav a {
+    padding: 20px 20px;
+    text-align: center;
+    color: #000000;
+    text-decoration: none; 
+    margin-bottom: 10px; 
+    margin-top: 20px;
+}
+
+nav a:hover{
+    border: #000000 1.5px solid;
+    border-color: #147B7B;
+    border-radius: 5px;
+    background-color: #147B7B;
+    color: white;
+}
+.links {
+    margin-right: 100px;
+
+}
+nav img {
+    width: 65px;
+    margin-left: 100px;
+    margin-bottom: 10px;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(/Eindopdracht/images/illustration-fitness-equipments-design-background_916191-36198.avif);
+    background-size: cover;
+    background-position: center;
+    border-bottom: #000000 solid 2px;
+
+    
+}
+.headline {
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 200px;
+}
+.headline a {
+    margin-top: 40px;
+    padding: 10px 10px;
+    text-align: center;
+    color: #000000;
+    text-decoration: none; 
+    margin-bottom: 10px; 
+    border: #000000 1.5px solid;
+    border-color: #147B7B;
+    border-radius: 5px;
+    background-color: #147B7B;
+    color: white;
+}
+.headline a:hover{
+    background-color: white;
+    color: #147B7B;
+}
+.subheading{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 50px
+}
+main {
+    padding: 0;
+}
+.sub-heading{
+    display: flex;
+    gap: 30px; 
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 100px;
+}
+.sub-container{
+    flex: 1;
+}
+.sub-container article{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: #000000 1px solid;
+    border-radius: 1vw;
+    text-align: left;
+}
+
+.sub-container article img{
+    width: 100%;
+    max-height: 150px;
+    object-fit: cover;
+    border-top: #000000 0 solid;
+    border-radius: 1vw;
+}
+.reviews {
+   padding-left: 20px;
+   max-height: 40px;
+   object-fit: cover;
+   width: 300px;
+}
+
+.sub-container article h3{
+    padding-left: 30px;
+}
+.sub-container article p{
+    padding-left: 30px;
+}
+.sub-container article a{
+    margin: 10px;
+    display: block;
+    padding: 10px 25px;
+    text-decoration: none;
+    text-align: center;
+    border: 3px solid #147B7B;
+    border-radius: 5px;
+    background-color: #147B7B;
+    color: white;
+    position: relative;
+    margin-top: auto;
+}
+.sub-container article a:hover{
+    background-color: white;
+    color: #147B7B;
+}
+.center-container{
+    background-color: azure;
+    display: flex;
+    justify-content: center;
+}
+.formulier{
+    width: 90vw;
+    max-width: 650px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    
+}
+form{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    text-align: left;
+}
+.formfield{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.formfield label{
+    text-align: left;
+    flex-grow: 1;
+}
+.formfield input{
+    gap: 20px;
+    padding: 10px;
+}
+.een{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+.twee{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+.een div{
+    flex: 1;
+}
+.twee div{
+    flex: 1;
+}
+.formfieldc{
+    display: flex;
+    gap: 30px;
+}
+.submit{
+    margin-top: 20px;
+}
+
+.submit a{
+    text-decoration: none;
+    border: #147B7B solid;
+    background-color: #147B7B;
+    color: white;
+    padding-left: 270px;
+    padding-right: 270px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.submit a:hover{
+    color: #147B7B;
+    background-color: white;
+}
+
+
+footer{
+    background-color: #147B7B;
+    margin-top: 0;
+    display: flex;
+    justify-content: space-between;
+}
+.copyright{
+    margin-left: 50px;
+    color: white;
+}
+.copyright img{
+    width: 65px;
+    margin-top: 50px;
+    
+}
+
+.einde{
+    display: flex;
+    gap: 50px;
+    padding: 20px;
+    margin-top: 50px;
+}
+.einde a{
+    color: white;
+    text-decoration: none;
+}
+.formfieldb{
+    display: flex;
+    flex-direction: column;
+    
+}
+.formfieldb select{
+    padding: 10px;
+    background-color: white;
+    margin-top: 10px;
+    border-radius: 2%;
+}
+input:invalid {
+    border: 3px solid red;
+    background-color:pink;
+}
+input:valid {
+    border: 3px solid green;
+    background-color:lightgreen;
+}
+
+@media (width <= 480px) {
+    
+    nav div{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+    }
+    .sub-heading{
+        display: flex;
+        flex-direction: column;
+        margin-left: auto;
+    }
+    .subheading{
+        display: flex;
+        flex-direction: column;
+        margin-left: 80px;
+
+    }
+    .sub-container article{
+        width: fit-content;
+        margin: 0;
+    }
+    .een{
+        flex-direction: column;
+    }
+    .twee{
+        flex-direction: column;
+    }
+    .submit a{
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+    footer{
+        flex-direction: column;
+    }
+    .einde{
+        flex-direction: column;
+    }
+    .copyright{
+        margin: 10px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
